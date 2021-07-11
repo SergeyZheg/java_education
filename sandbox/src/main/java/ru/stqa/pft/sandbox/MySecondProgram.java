@@ -4,13 +4,12 @@ public class MySecondProgram {
 
     public static void main(String[] args) {
 
-        //       Point p1 = new Point(5,10);
-        //       Point p2 = new Point(20, 20);
+               Point p1 = new Point(5,10);
+               Point p2 = new Point(20, 20);
 
         //       System.out.println("Расстояние между точками p1 и p2 = " + distance(p1,p2));
 
-        Point p = new Point(5, 10, 20, 20);
-        System.out.println("Расстояние между точками p1 и p2 = " + p.distance());
+        System.out.println("Расстояние между точками p1 и p2 = " + p1.distance(p2));
 
     }
 
