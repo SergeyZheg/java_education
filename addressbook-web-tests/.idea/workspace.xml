@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/../.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/classes/ru/stqa/pft/addressbook/GroupCreationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/ru/stqa/pft/addressbook/GroupCreationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/ContactCreationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/ContactCreationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,22 +126,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="408" y="194" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.900@0.0.1440.900" timestamp="1626369122538" />
-    <state width="1398" height="231" key="GridCell.Tab.0.bottom" timestamp="1626447011227">
+    <state width="1398" height="231" key="GridCell.Tab.0.bottom" timestamp="1626447791182">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="231" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1626447011227" />
-    <state width="1398" height="231" key="GridCell.Tab.0.center" timestamp="1626447011226">
+    <state width="1398" height="231" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1626447791182" />
+    <state width="1398" height="231" key="GridCell.Tab.0.center" timestamp="1626447791181">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="231" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1626447011226" />
-    <state width="1398" height="231" key="GridCell.Tab.0.left" timestamp="1626447011226">
+    <state width="1398" height="231" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1626447791181" />
+    <state width="1398" height="231" key="GridCell.Tab.0.left" timestamp="1626447791180">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="231" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1626447011226" />
-    <state width="1398" height="231" key="GridCell.Tab.0.right" timestamp="1626447011227">
+    <state width="1398" height="231" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1626447791180" />
+    <state width="1398" height="231" key="GridCell.Tab.0.right" timestamp="1626447791181">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="231" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1626447011227" />
+    <state width="1398" height="231" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1626447791181" />
     <state width="1398" height="286" key="GridCell.Tab.1.bottom" timestamp="1626435546942">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -157,18 +158,18 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="286" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1626435546941" />
-    <state x="435" y="80" key="RefactorJ.IntroduceParameterObject" timestamp="1626435191041">
+    <state x="435" y="80" key="RefactorJ.IntroduceParameterObject" timestamp="1626448453995">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="435" y="80" key="RefactorJ.IntroduceParameterObject/0.23.1440.877@0.23.1440.877" timestamp="1626435191041" />
+    <state x="435" y="80" key="RefactorJ.IntroduceParameterObject/0.23.1440.877@0.23.1440.877" timestamp="1626448453995" />
     <state x="448" y="121" key="SettingsEditor" timestamp="1626182027222">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="448" y="121" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1626182027222" />
-    <state x="458" y="207" key="extract.method.dialog" timestamp="1626434494636">
+    <state x="458" y="207" key="extract.method.dialog" timestamp="1626447758349">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="458" y="207" key="extract.method.dialog/0.23.1440.877@0.23.1440.877" timestamp="1626434494636" />
+    <state x="458" y="207" key="extract.method.dialog/0.23.1440.877@0.23.1440.877" timestamp="1626447758349" />
     <state x="354" y="162" key="new project wizard" timestamp="1626181285012">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
