@@ -10,7 +10,7 @@ public class ContactHelper extends BaseHelper {
         super(wd);
     }
 
-    public void gotoHomePage() {
+    public void returnToHomePage() {
         click(By.linkText("home page"));
     }
 
@@ -32,4 +32,28 @@ public class ContactHelper extends BaseHelper {
         click(By.linkText("add new"));
     }
 
+    // Можно задавать конкретный ID строки
+//    public void selectContact(String n) {
+//        click(By.id(n));
+//    }
+    public void selectContact() {
+        click(By.name("selected[]"));
+    }
+
+    public void deleteSelectedContacts() {
+        click(By.xpath("//input[@value='Delete']"));
+        wd.switchTo().alert().accept();
+    }
+
+    public void gotoHomePage() {
+        click(By.linkText("home"));
+    }
+
+    public void initContactModification() {
+        click(By.xpath("//img[@alt='Edit']"));
+    }
+
+    public void submitContactModification() {
+        click(By.xpath("//div[@id='content']/form/input[22]"));
+    }
 }
