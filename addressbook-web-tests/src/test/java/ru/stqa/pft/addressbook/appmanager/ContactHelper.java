@@ -52,9 +52,9 @@ public class ContactHelper extends BaseHelper {
         wd.switchTo().alert().accept();
     }
 
-    public void gotoHomePage() {
-        click(By.linkText("home"));
-    }
+//    public void gotoHomePage() {
+//        click(By.linkText("home"));
+//    }
 
     public void initContactModification() {
         click(By.xpath("//img[@alt='Edit']"));

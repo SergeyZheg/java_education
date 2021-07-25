@@ -14,6 +14,7 @@
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/appmanager/SessionHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/appmanager/SessionHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/model/ContactData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/model/ContactData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactCreationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactCreationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactDeletionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactDeletionTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactModificationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactModificationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/TestBase.java" afterDir="false" />
     </list>
@@ -115,6 +116,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GroupCreationTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook-web-tests.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.pft.addressbook.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.GroupCreationTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GroupDeletionTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook-web-tests.test" />
       <extension name="coverage">
@@ -132,30 +150,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GroupModificationTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="addressbook-web-tests.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.stqa.pft.addressbook.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.GroupModificationTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.ContactDeletionTests" />
+        <item itemvalue="TestNG.GroupCreationTests" />
         <item itemvalue="TestNG.ContactCreationTests" />
         <item itemvalue="TestNG.GroupDeletionTests" />
         <item itemvalue="TestNG.ContactModificationTests" />
-        <item itemvalue="TestNG.GroupModificationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -194,25 +195,25 @@
     </state>
     <state x="419" y="218" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/0.23.1440.877@0.23.1440.877" timestamp="1626530764406" />
     <state x="559" y="258" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1626685027778" />
-    <state width="1398" height="228" key="GridCell.Tab.0.bottom" timestamp="1627048538500">
+    <state width="1398" height="224" key="GridCell.Tab.0.bottom" timestamp="1627231750648">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="228" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1627048538500" />
+    <state width="1398" height="224" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1627231750648" />
     <state width="1398" height="228" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1626797759340" />
-    <state width="1398" height="228" key="GridCell.Tab.0.center" timestamp="1627048538499">
+    <state width="1398" height="224" key="GridCell.Tab.0.center" timestamp="1627231750647">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="228" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1627048538499" />
+    <state width="1398" height="224" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1627231750647" />
     <state width="1398" height="228" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1626797759340" />
-    <state width="1398" height="228" key="GridCell.Tab.0.left" timestamp="1627048538498">
+    <state width="1398" height="224" key="GridCell.Tab.0.left" timestamp="1627231750647">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="228" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1627048538498" />
+    <state width="1398" height="224" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1627231750647" />
     <state width="1398" height="228" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1626797759339" />
-    <state width="1398" height="228" key="GridCell.Tab.0.right" timestamp="1627048538499">
+    <state width="1398" height="224" key="GridCell.Tab.0.right" timestamp="1627231750648">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="228" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1627048538499" />
+    <state width="1398" height="224" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1627231750648" />
     <state width="1398" height="228" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1626797759340" />
     <state width="1398" height="286" key="GridCell.Tab.1.bottom" timestamp="1627046436727">
       <screen x="0" y="23" width="1440" height="877" />
