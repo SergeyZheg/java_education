@@ -5,7 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/classes/ru/stqa/pft/addressbook/ContactCreationTests.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/classes/ru/stqa/pft/addressbook/ContactData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/ru/stqa/pft/addressbook/appmanager/ApplicationManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/ru/stqa/pft/addressbook/appmanager/ApplicationManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/ru/stqa/pft/addressbook/model/GroupData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/ru/stqa/pft/addressbook/model/GroupData.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/classes/ru/stqa/pft/addressbook/tests/GroupCreationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/ru/stqa/pft/addressbook/tests/GroupCreationTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/classes/ru/stqa/pft/addressbook/tests/GroupDeletionTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/ru/stqa/pft/addressbook/tests/GroupDeletionTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/classes/ru/stqa/pft/addressbook/tests/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/ru/stqa/pft/addressbook/tests/TestBase.class" afterDir="false" />
@@ -15,6 +15,7 @@
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/appmanager/NavigationHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/appmanager/NavigationHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/appmanager/SessionHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/appmanager/SessionHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/model/ContactData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/model/ContactData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/model/GroupData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/model/GroupData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactCreationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactCreationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactDeletionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactDeletionTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactModificationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactModificationTests.java" afterDir="false" />
@@ -58,9 +59,9 @@
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor.code.editing" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
   <component name="RecentsManager">
@@ -69,7 +70,7 @@
       <recent name="ru.stqa.pft.addressbook" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.GroupDeletionTests">
+  <component name="RunManager" selected="TestNG.GroupCreationTests">
     <configuration name="ContactDeletionTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook-web-tests.test" />
       <extension name="coverage">
@@ -157,9 +158,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.GroupDeletionTests" />
-        <item itemvalue="TestNG.GroupModificationTests" />
         <item itemvalue="TestNG.GroupCreationTests" />
+        <item itemvalue="TestNG.GroupModificationTests" />
+        <item itemvalue="TestNG.GroupDeletionTests" />
         <item itemvalue="TestNG.ContactModificationTests" />
         <item itemvalue="TestNG.ContactDeletionTests" />
       </list>
@@ -191,6 +192,11 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="208" y="44" key="#Project_Structure/0.23.1440.877@0.23.1440.877" timestamp="1626528626990" />
+    <state x="633" y="176" key="#com.intellij.ide.util.MemberChooser" timestamp="1627642640578">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="633" y="176" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1627642640578" />
+    <state x="844" y="208" key="#com.intellij.ide.util.MemberChooser/0.23.1920.1057@0.23.1920.1057" timestamp="1627478460013" />
     <state x="408" y="194" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1626369122538">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -200,46 +206,46 @@
     </state>
     <state x="419" y="218" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/0.23.1440.877@0.23.1440.877" timestamp="1626530764406" />
     <state x="559" y="258" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1626685027778" />
-    <state width="1398" height="224" key="GridCell.Tab.0.bottom" timestamp="1627455100705">
-      <screen x="0" y="23" width="1920" height="1057" />
-    </state>
-    <state width="1398" height="224" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1627416036393" />
-    <state width="1398" height="224" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1627455100705" />
-    <state width="1398" height="224" key="GridCell.Tab.0.center" timestamp="1627455100704">
-      <screen x="0" y="23" width="1920" height="1057" />
-    </state>
-    <state width="1398" height="224" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1627416036392" />
-    <state width="1398" height="224" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1627455100704" />
-    <state width="1398" height="224" key="GridCell.Tab.0.left" timestamp="1627455100703">
-      <screen x="0" y="23" width="1920" height="1057" />
-    </state>
-    <state width="1398" height="224" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1627416036391" />
-    <state width="1398" height="224" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1627455100703" />
-    <state width="1398" height="224" key="GridCell.Tab.0.right" timestamp="1627455100704">
-      <screen x="0" y="23" width="1920" height="1057" />
-    </state>
-    <state width="1398" height="224" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1627416036392" />
-    <state width="1398" height="224" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1627455100704" />
-    <state width="1398" height="286" key="GridCell.Tab.1.bottom" timestamp="1627046436727">
+    <state width="1398" height="224" key="GridCell.Tab.0.bottom" timestamp="1627649747796">
       <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="224" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1627649747796" />
+    <state width="1398" height="286" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1627481530562" />
+    <state width="1398" height="224" key="GridCell.Tab.0.center" timestamp="1627649747795">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="224" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1627649747795" />
+    <state width="1398" height="286" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1627481530561" />
+    <state width="1398" height="224" key="GridCell.Tab.0.left" timestamp="1627649747794">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="224" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1627649747794" />
+    <state width="1398" height="286" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1627481530561" />
+    <state width="1398" height="224" key="GridCell.Tab.0.right" timestamp="1627649747795">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="224" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1627649747795" />
+    <state width="1398" height="286" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1627481530562" />
+    <state width="1398" height="286" key="GridCell.Tab.1.bottom" timestamp="1627481530563">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1398" height="286" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1627046436727" />
-    <state width="1398" height="286" key="GridCell.Tab.1.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1626774560560" />
-    <state width="1398" height="286" key="GridCell.Tab.1.center" timestamp="1627046436727">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1398" height="286" key="GridCell.Tab.1.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1627481530563" />
+    <state width="1398" height="286" key="GridCell.Tab.1.center" timestamp="1627481530562">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1398" height="286" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1627046436727" />
-    <state width="1398" height="286" key="GridCell.Tab.1.center/0.23.1920.1057@0.23.1920.1057" timestamp="1626774560560" />
-    <state width="1398" height="286" key="GridCell.Tab.1.left" timestamp="1627046436726">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1398" height="286" key="GridCell.Tab.1.center/0.23.1920.1057@0.23.1920.1057" timestamp="1627481530562" />
+    <state width="1398" height="286" key="GridCell.Tab.1.left" timestamp="1627481530562">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1398" height="286" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1627046436726" />
-    <state width="1398" height="286" key="GridCell.Tab.1.left/0.23.1920.1057@0.23.1920.1057" timestamp="1626774560559" />
-    <state width="1398" height="286" key="GridCell.Tab.1.right" timestamp="1627046436727">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1398" height="286" key="GridCell.Tab.1.left/0.23.1920.1057@0.23.1920.1057" timestamp="1627481530562" />
+    <state width="1398" height="286" key="GridCell.Tab.1.right" timestamp="1627481530563">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1398" height="286" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1627046436727" />
-    <state width="1398" height="286" key="GridCell.Tab.1.right/0.23.1920.1057@0.23.1920.1057" timestamp="1626774560560" />
+    <state width="1398" height="286" key="GridCell.Tab.1.right/0.23.1920.1057@0.23.1920.1057" timestamp="1627481530563" />
     <state x="435" y="80" key="RefactorJ.IntroduceParameterObject" timestamp="1626448453995">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -248,10 +254,15 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="1032" y="393" key="ReplaceDuplicatesPrompt/0.23.1920.1057@0.23.1920.1057" timestamp="1626684797078" />
-    <state x="448" y="121" key="SettingsEditor" timestamp="1626182027222">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="710" y="209" key="RollbackChangesDialog" timestamp="1627471655015">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="710" y="209" key="RollbackChangesDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1627471655015" />
+    <state x="336" y="66" key="SettingsEditor" timestamp="1627645074451">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="448" y="121" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1626182027222" />
+    <state x="336" y="66" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1627645074451" />
     <state x="611" y="245" key="extract.method.dialog" timestamp="1626684647328">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
