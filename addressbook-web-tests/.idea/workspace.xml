@@ -158,8 +158,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.ContactDeletionTests" />
-        <item itemvalue="TestNG.ContactCreationTests" />
         <item itemvalue="TestNG.ContactModificationTests" />
+        <item itemvalue="TestNG.ContactCreationTests" />
         <item itemvalue="TestNG.GroupCreationTests" />
         <item itemvalue="TestNG.GroupModificationTests" />
       </list>
@@ -191,10 +191,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="208" y="44" key="#Project_Structure/0.23.1440.877@0.23.1440.877" timestamp="1626528626990" />
-    <state x="102" y="123" width="1240" height="677" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1627742207446">
+    <state x="102" y="123" width="1240" height="677" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1627802054422">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="102" y="123" width="1240" height="677" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1440.877@0.23.1440.877" timestamp="1627742207446" />
+    <state x="102" y="123" width="1240" height="677" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1440.877@0.23.1440.877" timestamp="1627802054422" />
     <state x="633" y="176" key="#com.intellij.ide.util.MemberChooser" timestamp="1627741148201">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -209,45 +209,45 @@
     </state>
     <state x="419" y="218" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/0.23.1440.877@0.23.1440.877" timestamp="1626530764406" />
     <state x="559" y="258" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1626685027778" />
-    <state width="1398" height="286" key="GridCell.Tab.0.bottom" timestamp="1627743861247">
+    <state width="1398" height="286" key="GridCell.Tab.0.bottom" timestamp="1627805581886">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="286" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1627743861247" />
+    <state width="1398" height="286" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1627805581886" />
     <state width="1398" height="286" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1627481530562" />
-    <state width="1398" height="286" key="GridCell.Tab.0.center" timestamp="1627743861246">
+    <state width="1398" height="286" key="GridCell.Tab.0.center" timestamp="1627805581885">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="286" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1627743861246" />
+    <state width="1398" height="286" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1627805581885" />
     <state width="1398" height="286" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1627481530561" />
-    <state width="1398" height="286" key="GridCell.Tab.0.left" timestamp="1627743861245">
+    <state width="1398" height="286" key="GridCell.Tab.0.left" timestamp="1627805581884">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="286" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1627743861245" />
+    <state width="1398" height="286" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1627805581884" />
     <state width="1398" height="286" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1627481530561" />
-    <state width="1398" height="286" key="GridCell.Tab.0.right" timestamp="1627743861246">
+    <state width="1398" height="286" key="GridCell.Tab.0.right" timestamp="1627805581885">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="286" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1627743861246" />
+    <state width="1398" height="286" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1627805581885" />
     <state width="1398" height="286" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1627481530562" />
-    <state width="1398" height="286" key="GridCell.Tab.1.bottom" timestamp="1627743493319">
+    <state width="1398" height="286" key="GridCell.Tab.1.bottom" timestamp="1627805581888">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="286" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1627743493319" />
+    <state width="1398" height="286" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1627805581888" />
     <state width="1398" height="286" key="GridCell.Tab.1.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1627481530563" />
-    <state width="1398" height="286" key="GridCell.Tab.1.center" timestamp="1627743493318">
+    <state width="1398" height="286" key="GridCell.Tab.1.center" timestamp="1627805581887">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="286" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1627743493318" />
+    <state width="1398" height="286" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1627805581887" />
     <state width="1398" height="286" key="GridCell.Tab.1.center/0.23.1920.1057@0.23.1920.1057" timestamp="1627481530562" />
-    <state width="1398" height="286" key="GridCell.Tab.1.left" timestamp="1627743493318">
+    <state width="1398" height="286" key="GridCell.Tab.1.left" timestamp="1627805581886">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="286" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1627743493318" />
+    <state width="1398" height="286" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1627805581886" />
     <state width="1398" height="286" key="GridCell.Tab.1.left/0.23.1920.1057@0.23.1920.1057" timestamp="1627481530562" />
-    <state width="1398" height="286" key="GridCell.Tab.1.right" timestamp="1627743493318">
+    <state width="1398" height="286" key="GridCell.Tab.1.right" timestamp="1627805581887">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="286" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1627743493318" />
+    <state width="1398" height="286" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1627805581887" />
     <state width="1398" height="286" key="GridCell.Tab.1.right/0.23.1920.1057@0.23.1920.1057" timestamp="1627481530563" />
     <state x="435" y="80" key="RefactorJ.IntroduceParameterObject" timestamp="1626448453995">
       <screen x="0" y="23" width="1440" height="877" />
@@ -275,31 +275,5 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="354" y="162" key="new project wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1626181285012" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/appmanager/ContactHelper.java</url>
-          <line>83</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactDeletionTests.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactDeletionTests.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactDeletionTests.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
