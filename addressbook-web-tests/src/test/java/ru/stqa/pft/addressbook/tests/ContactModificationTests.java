@@ -5,15 +5,14 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import ru.stqa.pft.addressbook.model.ContactData;
 
-import java.util.Comparator;
-import java.util.List;
+import java.util.Set;
 
 public class ContactModificationTests extends TestBase {
 
     @BeforeMethod
     public void ensureContactPreconditions() {
         app.goTo().homePage();
-        if (app.contact().list().size() == 0) {
+        if (app.contact().all().size() == 0) {
             app.contact().create((new ContactData()
                     .withFirstname("Ivan").withMiddlename("Ivanovich").withLastname("Ivanov").withAddress("MOSCOW")
                     .withHomephone("495123-44-55").withEmail("ivanov@mail.ru").withGroup("test1")), true);
@@ -22,21 +21,18 @@ public class ContactModificationTests extends TestBase {
 
     @Test
     public void testContactModification() throws Exception {
-        List<ContactData> before = app.contact().list();
-        int index = before.size() - 1;
-        ContactData contact = new ContactData().withId(before.get(index).getId()).withFirstname("Maxim")
+        Set<ContactData> before = app.contact().all();
+        ContactData modifiedContact = before.iterator().next();
+        ContactData contact = new ContactData().withId(modifiedContact.getId()).withFirstname("Maxim")
                 .withMiddlename("Maximovich").withLastname("Maxov").withAddress("TVER").withHomephone("495123-44-59").withEmail("max@mail.ru");
 
-        app.contact().modify(index, contact);
+        app.contact().modify(contact);
 
-        List<ContactData> after = app.contact().list();
+        Set<ContactData> after = app.contact().all();
         Assert.assertEquals(after.size(), before.size());
 
-        before.remove(index);
+        before.remove(modifiedContact);
         before.add(contact);
-        Comparator<? super ContactData> byId = (c1, c2) -> Integer.compare(c1.getId(), c2.getId());
-        before.sort(byId);
-        after.sort(byId);
         Assert.assertEquals(before, after);
     }
 
