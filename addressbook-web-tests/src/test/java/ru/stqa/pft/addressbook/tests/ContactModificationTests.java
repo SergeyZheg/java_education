@@ -14,7 +14,9 @@ public class ContactModificationTests extends TestBase {
     public void ensureContactPreconditions() {
         app.goTo().homePage();
         if (app.contact().list().size() == 0) {
-            app.contact().create(new ContactData("Ivan", "Ivanovich", "Ivanov", "MOSCOW", "495123-44-55", "ivanov@mail.ru", "test1"), true);
+            app.contact().create((new ContactData()
+                    .withFirstname("Ivan").withMiddlename("Ivanovich").withLastname("Ivanov").withAddress("MOSCOW")
+                    .withHomephone("495123-44-55").withEmail("ivanov@mail.ru").withGroup("test1")), true);
         }
     }
 
@@ -22,7 +24,8 @@ public class ContactModificationTests extends TestBase {
     public void testContactModification() throws Exception {
         List<ContactData> before = app.contact().list();
         int index = before.size() - 1;
-        ContactData contact = new ContactData(before.get(index).getId(), "Maxim", "Maximovich", "Maxov", "TVER", "495123-44-59", "max@mail.ru", null);
+        ContactData contact = new ContactData().withId(before.get(index).getId()).withFirstname("Maxim")
+                .withMiddlename("Maximovich").withLastname("Maxov").withAddress("TVER").withHomephone("495123-44-59").withEmail("max@mail.ru");
 
         app.contact().modify(index, contact);
 
