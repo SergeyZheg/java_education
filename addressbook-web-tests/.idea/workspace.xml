@@ -11,6 +11,8 @@
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/appmanager/ContactHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/appmanager/ContactHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/appmanager/GroupHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/appmanager/GroupHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/model/ContactData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/model/ContactData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactCreationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactCreationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactPhoneTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/ContactPhoneTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/GroupCreationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/GroupCreationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/GroupDeletionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/GroupDeletionTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/GroupModificationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/tests/GroupModificationTests.java" afterDir="false" />
@@ -73,7 +75,24 @@
       <recent name="ru.stqa.pft.addressbook" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ContactPhoneTests">
+  <component name="RunManager" selected="TestNG.ru.stqa.pft.addressbook.tests">
+    <configuration name="ContactAddressTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook-web-tests.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.pft.addressbook.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.ContactAddressTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ContactCreationTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook-web-tests.test" />
       <extension name="coverage">
@@ -91,6 +110,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ContactEmailTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook-web-tests.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.pft.addressbook.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.ContactEmailTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ContactPhoneTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook-web-tests.test" />
       <extension name="coverage">
@@ -101,40 +137,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook.tests" />
       <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.ContactPhoneTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GroupDeletionTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="addressbook-web-tests.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.stqa.pft.addressbook.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.GroupDeletionTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GroupModificationTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="addressbook-web-tests.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.stqa.pft.addressbook.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.GroupModificationTests" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -160,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ContactPhoneTests" />
         <item itemvalue="TestNG.ru.stqa.pft.addressbook.tests" />
+        <item itemvalue="TestNG.ContactAddressTests" />
+        <item itemvalue="TestNG.ContactEmailTests" />
         <item itemvalue="TestNG.ContactCreationTests" />
-        <item itemvalue="TestNG.GroupDeletionTests" />
-        <item itemvalue="TestNG.GroupModificationTests" />
+        <item itemvalue="TestNG.ContactPhoneTests" />
       </list>
     </recent_temporary>
   </component>
@@ -199,10 +201,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="102" y="123" width="1240" height="677" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1440.877@0.23.1440.877" timestamp="1627807983534" />
-    <state x="633" y="176" key="#com.intellij.ide.util.MemberChooser" timestamp="1628352975259">
+    <state x="633" y="176" key="#com.intellij.ide.util.MemberChooser" timestamp="1628418230206">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="633" y="176" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1628352975259" />
+    <state x="633" y="176" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1628418230206" />
     <state x="844" y="208" key="#com.intellij.ide.util.MemberChooser/0.23.1920.1057@0.23.1920.1057" timestamp="1628191732279" />
     <state x="544" y="251" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1628187575611">
       <screen x="0" y="23" width="1920" height="1057" />
@@ -214,49 +216,49 @@
     </state>
     <state x="419" y="218" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/0.23.1440.877@0.23.1440.877" timestamp="1626530764406" />
     <state x="559" y="258" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1626685027778" />
-    <state width="1398" height="287" key="GridCell.Tab.0.bottom" timestamp="1628410203355">
+    <state width="1398" height="286" key="GridCell.Tab.0.bottom" timestamp="1628424232862">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1878" height="296" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1628174115663" />
-    <state width="1398" height="287" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1628410203355" />
+    <state width="1398" height="286" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1628424232862" />
     <state width="1398" height="287" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1628194809341" />
-    <state width="1398" height="287" key="GridCell.Tab.0.center" timestamp="1628410203354">
+    <state width="1398" height="286" key="GridCell.Tab.0.center" timestamp="1628424232861">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1878" height="296" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1628174115662" />
-    <state width="1398" height="287" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1628410203354" />
+    <state width="1398" height="286" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1628424232861" />
     <state width="1398" height="287" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1628194809339" />
-    <state width="1398" height="287" key="GridCell.Tab.0.left" timestamp="1628410203353">
+    <state width="1398" height="286" key="GridCell.Tab.0.left" timestamp="1628424232860">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1878" height="296" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1628174115661" />
-    <state width="1398" height="287" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1628410203353" />
+    <state width="1398" height="286" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1628424232860" />
     <state width="1398" height="287" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1628194809338" />
-    <state width="1398" height="287" key="GridCell.Tab.0.right" timestamp="1628410203355">
+    <state width="1398" height="286" key="GridCell.Tab.0.right" timestamp="1628424232861">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1878" height="296" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1628174115662" />
-    <state width="1398" height="287" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1628410203355" />
+    <state width="1398" height="286" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1628424232861" />
     <state width="1398" height="287" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1628194809341" />
-    <state width="1398" height="286" key="GridCell.Tab.1.bottom" timestamp="1628408533001">
+    <state width="1398" height="286" key="GridCell.Tab.1.bottom" timestamp="1628424203182">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="286" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1628408533001" />
+    <state width="1398" height="286" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1628424203182" />
     <state width="1398" height="286" key="GridCell.Tab.1.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1627481530563" />
-    <state width="1398" height="286" key="GridCell.Tab.1.center" timestamp="1628408532999">
+    <state width="1398" height="286" key="GridCell.Tab.1.center" timestamp="1628424203181">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="286" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1628408532999" />
+    <state width="1398" height="286" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1628424203181" />
     <state width="1398" height="286" key="GridCell.Tab.1.center/0.23.1920.1057@0.23.1920.1057" timestamp="1627481530562" />
-    <state width="1398" height="286" key="GridCell.Tab.1.left" timestamp="1628408532999">
+    <state width="1398" height="286" key="GridCell.Tab.1.left" timestamp="1628424203180">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="286" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1628408532999" />
+    <state width="1398" height="286" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1628424203180" />
     <state width="1398" height="286" key="GridCell.Tab.1.left/0.23.1920.1057@0.23.1920.1057" timestamp="1627481530562" />
-    <state width="1398" height="286" key="GridCell.Tab.1.right" timestamp="1628408533000">
+    <state width="1398" height="286" key="GridCell.Tab.1.right" timestamp="1628424203182">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="286" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1628408533000" />
+    <state width="1398" height="286" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1628424203182" />
     <state width="1398" height="286" key="GridCell.Tab.1.right/0.23.1920.1057@0.23.1920.1057" timestamp="1627481530563" />
     <state x="435" y="80" key="RefactorJ.IntroduceParameterObject" timestamp="1626448453995">
       <screen x="0" y="23" width="1440" height="877" />
@@ -275,6 +277,10 @@
     </state>
     <state x="448" y="121" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1626182027222" />
     <state x="336" y="66" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1627645074451" />
+    <state width="720" height="438" key="XDebugger.FullValuePopup" timestamp="1628421369881">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="720" height="438" key="XDebugger.FullValuePopup/0.23.1440.877@0.23.1440.877" timestamp="1628421369881" />
     <state x="611" y="245" key="extract.method.dialog" timestamp="1627980838902">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
