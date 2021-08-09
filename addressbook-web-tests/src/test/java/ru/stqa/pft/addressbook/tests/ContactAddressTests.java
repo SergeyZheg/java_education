@@ -13,7 +13,7 @@ public class ContactAddressTests extends TestBase{
         app.goTo().homePage();
         if (app.contact().all().size() == 0) {
             app.contact().create((new ContactData()
-                    .withFirstname("Ivan").withMiddlename("Ivanovich").withLastname("Ivanov").withAddress("115500 \n MOSCOW")
+                    .withFirstname("Ivan").withMiddlename("Ivanovich").withLastname("Ivanov").withAddress("115500\nMOSCOW")
                     .withHomephone("495123-44-55").withEmail("ivanov@mail.ru").withGroup("test1")), true);
         }
     }
