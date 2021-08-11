@@ -19,7 +19,7 @@ public class ContactCreationTests extends TestBase {
 
         File photo = new File("src/test/resources/user.png");
         ContactData contact = new ContactData()
-                .withFirstname("Ivan").withMiddlename("Ivanovich").withLastname("Ivanov").withAddress("115500\n MOSCOW\n Red square\n h.1")
+                .withFirstname("Ivan").withMiddlename("Ivanovich").withLastname("Ivanov").withAddress("115500\nMOSCOW\nRed square\nh.1")
                 .withHomephone("495123-44-55").withEmail("ivanov@mail.ru").withPhoto(photo).withGroup("test1");
         app.contact().create(contact, true);
         assertThat(app.contact().count(), equalTo(before.size() + 1));
