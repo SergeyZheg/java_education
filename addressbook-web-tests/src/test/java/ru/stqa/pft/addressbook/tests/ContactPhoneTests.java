@@ -22,7 +22,7 @@ public class ContactPhoneTests extends TestBase {
         }
     }
 
-    @Test
+    @Test ( enabled=false )
     public void testContactPhones() {
         ContactData contact = app.contact().all().iterator().next();
         ContactData contactInfoFromEditForm = app.contact().infoFromEditForm(contact);

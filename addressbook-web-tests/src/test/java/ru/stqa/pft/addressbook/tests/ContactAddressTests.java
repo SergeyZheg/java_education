@@ -18,7 +18,7 @@ public class ContactAddressTests extends TestBase{
         }
     }
 
-    @Test
+    @Test ( enabled=false )
     public void testContactAddress() {
         ContactData contact = app.contact().all().iterator().next();
         ContactData contactInfoFromEditForm = app.contact().infoFromEditForm(contact);
