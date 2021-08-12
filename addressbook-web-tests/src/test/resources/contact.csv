@@ -1,6 +1,3 @@
-Ivan0;Ivanovich0;Ivanov0;Moscow,Novaya street,dom0;ivan0@mail.ru;ivan20@mail.ru;(495)111-22-30
-Ivan1;Ivanovich1;Ivanov1;Moscow,Novaya street,dom1;ivan1@mail.ru;ivan21@mail.ru;(495)111-22-31
-Ivan2;Ivanovich2;Ivanov2;Moscow,Novaya street,dom2;ivan2@mail.ru;ivan22@mail.ru;(495)111-22-32
-Ivan3;Ivanovich3;Ivanov3;Moscow,Novaya street,dom3;ivan3@mail.ru;ivan23@mail.ru;(495)111-22-33
-Ivan4;Ivanovich4;Ivanov4;Moscow,Novaya street,dom4;ivan4@mail.ru;ivan24@mail.ru;(495)111-22-34
-Ivan5;Ivanovich5;Ivanov5;Moscow,Novaya street,dom5;ivan5@mail.ru;ivan25@mail.ru;(495)111-22-35
+Ivan0;Ivanovich0;Ivanov0;Moscow,Novaya street,dom0;(495)111-22-30;ivan0@mail.ru;ivan20@mail.ru;src/test/resources/user.png;test1
+Ivan1;Ivanovich1;Ivanov1;Moscow,Novaya street,dom1;(495)111-22-31;ivan1@mail.ru;ivan21@mail.ru;src/test/resources/user.png;test1
+Ivan2;Ivanovich2;Ivanov2;Moscow,Novaya street,dom2;(495)111-22-32;ivan2@mail.ru;ivan22@mail.ru;src/test/resources/user.png;test1

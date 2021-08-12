@@ -29,11 +29,22 @@ public class ContactData {
     private String email2;
     @Expose
     private String email3;
+    @Expose
     private String group;
     private String allPhones;
     private String allEmails;
+    @Expose
     private File photo;
+//    @Expose
+//    private String photopath;
 
+//    public String getPhotopath() {
+//        return photopath;
+//    }
+//    public ContactData withPhotoPath(String photopath) {
+//        this.photopath = photopath;
+//        return this;
+//    }
 
     public File getPhoto() { return photo; }
 
@@ -78,15 +89,15 @@ public class ContactData {
         return allEmails;
     }
 
-    public ContactData withAllEmails(String allEmails) {
-        this.allEmails = allEmails;
-        return this;
-    }
-
     public String getAllPhones() {
         return allPhones;
     }
 
+
+    public ContactData withAllEmails(String allEmails) {
+        this.allEmails = allEmails;
+        return this;
+    }
 
     public ContactData withPhoto(File photo) {
         this.photo = photo;

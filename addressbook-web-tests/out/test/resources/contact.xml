@@ -7,6 +7,8 @@
     <homephone>(495)111-22-30</homephone>
     <email>ivan0@mail.ru</email>
     <email2>ivan20@mail.ru</email2>
+    <group>test1</group>
+    <photo>src/test/resources/user.png</photo>
   </contact>
   <contact>
     <firstname>Ivan1</firstname>
@@ -16,6 +18,8 @@
     <homephone>(495)111-22-31</homephone>
     <email>ivan1@mail.ru</email>
     <email2>ivan21@mail.ru</email2>
+    <group>test1</group>
+    <photo>src/test/resources/user.png</photo>
   </contact>
   <contact>
     <firstname>Ivan2</firstname>
@@ -25,32 +29,7 @@
     <homephone>(495)111-22-32</homephone>
     <email>ivan2@mail.ru</email>
     <email2>ivan22@mail.ru</email2>
-  </contact>
-  <contact>
-    <firstname>Ivan3</firstname>
-    <middlename>Ivanovich3</middlename>
-    <lastname>Ivanov3</lastname>
-    <address>Moscow,Novaya street,dom3</address>
-    <homephone>(495)111-22-33</homephone>
-    <email>ivan3@mail.ru</email>
-    <email2>ivan23@mail.ru</email2>
-  </contact>
-  <contact>
-    <firstname>Ivan4</firstname>
-    <middlename>Ivanovich4</middlename>
-    <lastname>Ivanov4</lastname>
-    <address>Moscow,Novaya street,dom4</address>
-    <homephone>(495)111-22-34</homephone>
-    <email>ivan4@mail.ru</email>
-    <email2>ivan24@mail.ru</email2>
-  </contact>
-  <contact>
-    <firstname>Ivan5</firstname>
-    <middlename>Ivanovich5</middlename>
-    <lastname>Ivanov5</lastname>
-    <address>Moscow,Novaya street,dom5</address>
-    <homephone>(495)111-22-35</homephone>
-    <email>ivan5@mail.ru</email>
-    <email2>ivan25@mail.ru</email2>
+    <group>test1</group>
+    <photo>src/test/resources/user.png</photo>
   </contact>
 </list>

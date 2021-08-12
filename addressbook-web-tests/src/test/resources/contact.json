@@ -6,7 +6,9 @@
     "address": "Moscow,Novaya street,dom0",
     "homephone": "(495)111-22-30",
     "email": "ivan0@mail.ru",
-    "email2": "ivan20@mail.ru"
+    "email2": "ivan20@mail.ru",
+    "group": "test1",
+    "photo": {}
   },
   {
     "firstname": "Ivan1",
@@ -15,7 +17,9 @@
     "address": "Moscow,Novaya street,dom1",
     "homephone": "(495)111-22-31",
     "email": "ivan1@mail.ru",
-    "email2": "ivan21@mail.ru"
+    "email2": "ivan21@mail.ru",
+    "group": "test1",
+    "photo": {}
   },
   {
     "firstname": "Ivan2",
@@ -24,6 +28,8 @@
     "address": "Moscow,Novaya street,dom2",
     "homephone": "(495)111-22-32",
     "email": "ivan2@mail.ru",
-    "email2": "ivan22@mail.ru"
+    "email2": "ivan22@mail.ru",
+    "group": "test1",
+    "photo": {}
   }
 ]
