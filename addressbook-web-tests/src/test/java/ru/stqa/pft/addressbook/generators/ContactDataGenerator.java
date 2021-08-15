@@ -20,14 +20,14 @@ public class ContactDataGenerator {
     @Parameter(names = "-c", description = "Contact count")
     public int count;
 
-    @Parameter (names = "-f", description = "Target file")
+    @Parameter(names = "-f", description = "Target file")
     public String file;
 
-    @Parameter (names = "-d", description = "Data format")
+    @Parameter(names = "-d", description = "Data format")
     public String format;
 
 
-    public static void main (String[] args) throws IOException {
+    public static void main(String[] args) throws IOException {
 
         ContactDataGenerator generator = new ContactDataGenerator();
         JCommander jCommander = new JCommander(generator);
@@ -45,11 +45,11 @@ public class ContactDataGenerator {
         List<ContactData> contacts = generateContacts(count);
         if (format.equals("csv")) {
             saveAsCsv(contacts, new File(file));
-        } else if(format.equals("xml")){
+        } else if (format.equals("xml")) {
             saveAsXml(contacts, new File(file));
-        } else if(format.equals("json")){
+        } else if (format.equals("json")) {
             saveAsJson(contacts, new File(file));
-        }  else {
+        } else {
             System.out.println("Unrecognize format" + format);
         }
     }
@@ -57,36 +57,36 @@ public class ContactDataGenerator {
     private void saveAsJson(List<ContactData> contacts, File file) throws IOException {
         Gson gson = new GsonBuilder().setPrettyPrinting().excludeFieldsWithoutExposeAnnotation().create();
         String json = gson.toJson(contacts);
-        Writer writer = new FileWriter(file);
-        writer.write(json);
-        writer.close();
+        try (Writer writer = new FileWriter(file)) {
+            writer.write(json);
+        }
     }
 
     private void saveAsXml(List<ContactData> contacts, File file) throws IOException {
         XStream xstream = new XStream();
         xstream.processAnnotations(ContactData.class);
         String xml = xstream.toXML(contacts);
-        Writer writer = new FileWriter(file);
-        writer.write(xml);
-        writer.close();
+        try (Writer writer = new FileWriter(file)) {
+            writer.write(xml);
+        }
     }
 
     private void saveAsCsv(List<ContactData> contacts, File file) throws IOException {
-        Writer writer = new FileWriter(file);
-       for (ContactData contact: contacts){
-           writer.write(String.format("%s;%s;%s;%s;%s;%s;%s;%s;%s\n",contact.getFirstname(),contact.getMiddlename()
-                   ,contact.getLastname(),contact.getAddress(),contact.getHomephone(),contact.getEmail(),contact.getEmail2(),contact.getPhoto(),contact.getGroup()));
-       }
-       writer.close();
+        try (Writer writer = new FileWriter(file)) {
+            for (ContactData contact : contacts) {
+                writer.write(String.format("%s;%s;%s;%s;%s;%s;%s;%s;%s\n", contact.getFirstname(), contact.getMiddlename()
+                        , contact.getLastname(), contact.getAddress(), contact.getHomephone(), contact.getEmail(), contact.getEmail2(), contact.getPhoto(), contact.getGroup()));
+            }
+        }
 
     }
 
     private List<ContactData> generateContacts(int count) {
         List<ContactData> contacts = new ArrayList<ContactData>();
-        for (int i = 0; i < count; i++){
-        contacts.add(new ContactData().withFirstname(String.format("Ivan%s",i)).withMiddlename(String.format("Ivanovich%s",i)).withLastname(String.format("Ivanov%s",i))
-                .withAddress(String.format("Moscow,Novaya street,dom%s",i)).withHomephone(String.format("(495)111-22-3%s",i)).withEmail(String.format("ivan%s@mail.ru",i))
-                .withEmail2(String.format("ivan2%s@mail.ru",i)).withPhoto(new File("src/test/resources/user.png")).withGroup("test1"));
+        for (int i = 0; i < count; i++) {
+            contacts.add(new ContactData().withFirstname(String.format("Ivan%s", i)).withMiddlename(String.format("Ivanovich%s", i)).withLastname(String.format("Ivanov%s", i))
+                    .withAddress(String.format("Moscow,Novaya street,dom%s", i)).withHomephone(String.format("(495)111-22-3%s", i)).withEmail(String.format("ivan%s@mail.ru", i))
+                    .withEmail2(String.format("ivan2%s@mail.ru", i)).withPhoto(new File("src/test/resources/user.png")).withGroup("test1"));
         }
         return contacts;
     }

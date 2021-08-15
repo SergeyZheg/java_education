@@ -35,16 +35,6 @@ public class ContactData {
     private String allEmails;
     @Expose
     private File photo;
-//    @Expose
-//    private String photopath;
-
-//    public String getPhotopath() {
-//        return photopath;
-//    }
-//    public ContactData withPhotoPath(String photopath) {
-//        this.photopath = photopath;
-//        return this;
-//    }
 
     public File getPhoto() { return photo; }
 
