@@ -21,15 +21,4 @@
     <group>test1</group>
     <photo>src/test/resources/user.png</photo>
   </contact>
-  <contact>
-    <firstname>Ivan2</firstname>
-    <middlename>Ivanovich2</middlename>
-    <lastname>Ivanov2</lastname>
-    <address>Moscow,Novaya street,dom2</address>
-    <homephone>(495)111-22-32</homephone>
-    <email>ivan2@mail.ru</email>
-    <email2>ivan22@mail.ru</email2>
-    <group>test1</group>
-    <photo>src/test/resources/user.png</photo>
-  </contact>
 </list>

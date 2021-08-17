@@ -25,7 +25,7 @@ public class ContactCreationTests extends TestBase {
     @DataProvider
     public Iterator<Object[]> validContact() throws IOException {
         List<Object[]> list = new ArrayList<Object[]>();
-        try (BufferedReader reader = new BufferedReader(new FileReader(new File("src/test/resources/contact.csv")))) {
+        try (BufferedReader reader = new BufferedReader(new FileReader(new File("src/test/resources/contacts.csv")))) {
             String line = reader.readLine();
             while (line != null) {
                 String[] split = line.split(";");
@@ -39,7 +39,7 @@ public class ContactCreationTests extends TestBase {
 
     @DataProvider
     public Iterator<Object[]> validContactFromXml() throws IOException {
-        try (BufferedReader reader = new BufferedReader(new FileReader(new File("src/test/resources/contact.xml")))) {
+        try (BufferedReader reader = new BufferedReader(new FileReader(new File("src/test/resources/contacts.xml")))) {
             String xml = "";
             String line = reader.readLine();
             while (line != null) {
@@ -55,7 +55,7 @@ public class ContactCreationTests extends TestBase {
 
     @DataProvider
     public Iterator<Object[]> validContactFromJson() throws IOException {
-        try (BufferedReader reader = new BufferedReader(new FileReader(new File("src/test/resources/contact.json")))) {
+        try (BufferedReader reader = new BufferedReader(new FileReader(new File("src/test/resources/contacts.json")))) {
             String json = "";
             String line = reader.readLine();
             while (line != null) {
@@ -69,7 +69,7 @@ public class ContactCreationTests extends TestBase {
         }
     }
 
-    @Test(dataProvider = "validContactFromXml")
+    @Test(dataProvider = "validContactFromJson")
     public void testContactCreation(ContactData contact) throws Exception {
 
         app.goTo().homePage();

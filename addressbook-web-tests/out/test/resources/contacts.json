@@ -8,7 +8,7 @@
     "email": "ivan0@mail.ru",
     "email2": "ivan20@mail.ru",
     "group": "test1",
-    "photo": {}
+    "photo": "src/test/resources/user.png"
   },
   {
     "firstname": "Ivan1",
@@ -19,17 +19,6 @@
     "email": "ivan1@mail.ru",
     "email2": "ivan21@mail.ru",
     "group": "test1",
-    "photo": {}
-  },
-  {
-    "firstname": "Ivan2",
-    "middlename": "Ivanovich2",
-    "lastname": "Ivanov2",
-    "address": "Moscow,Novaya street,dom2",
-    "homephone": "(495)111-22-32",
-    "email": "ivan2@mail.ru",
-    "email2": "ivan22@mail.ru",
-    "group": "test1",
-    "photo": {}
+    "photo": "src/test/resources/user.png"
   }
 ]

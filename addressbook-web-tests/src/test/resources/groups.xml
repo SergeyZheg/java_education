@@ -9,19 +9,4 @@
     <header>header1</header>
     <footer>footer1</footer>
   </group>
-  <group>
-    <name>test2</name>
-    <header>header2</header>
-    <footer>footer2</footer>
-  </group>
-  <group>
-    <name>test3</name>
-    <header>header3</header>
-    <footer>footer3</footer>
-  </group>
-  <group>
-    <name>test4</name>
-    <header>header4</header>
-    <footer>footer4</footer>
-  </group>
 </list>
