@@ -66,9 +66,13 @@ public class ContactData {
     @Type(type = "text")
     private String photo;
 
-    public File getPhoto() { return new File(photo); }
+    public File getPhoto() {
+        return new File(photo);
+    }
 
-    public int getId() { return id; }
+    public int getId() {
+        return id;
+    }
 
     public String getFirstname() {
         return firstname;
@@ -90,19 +94,29 @@ public class ContactData {
         return email;
     }
 
-    public String getEmail2() { return email2; }
+    public String getEmail2() {
+        return email2;
+    }
 
-    public String getEmail3() { return email3; }
+    public String getEmail3() {
+        return email3;
+    }
 
     public String getHomephone() {
         return homephone;
     }
 
-    public String getMobilephone() { return mobilephone; }
+    public String getMobilephone() {
+        return mobilephone;
+    }
 
-    public String getWorkphone() { return workphone; }
+    public String getWorkphone() {
+        return workphone;
+    }
 
-    public String getGroup() {return group; }
+    public String getGroup() {
+        return group;
+    }
 
 
     public String getAllEmails() {
@@ -186,7 +200,6 @@ public class ContactData {
     }
 
 
-
     public ContactData withGroup(String group) {
         this.group = group;
         return this;
@@ -210,14 +223,20 @@ public class ContactData {
 
         if (id != that.id) return false;
         if (firstname != null ? !firstname.equals(that.firstname) : that.firstname != null) return false;
-        return lastname != null ? lastname.equals(that.lastname) : that.lastname == null;
+        if (middlename != null ? !middlename.equals(that.middlename) : that.middlename != null) return false;
+        if (lastname != null ? !lastname.equals(that.lastname) : that.lastname != null) return false;
+        if (homephone != null ? !homephone.equals(that.homephone) : that.homephone != null) return false;
+        return email != null ? email.equals(that.email) : that.email == null;
     }
 
     @Override
     public int hashCode() {
         int result = id;
         result = 31 * result + (firstname != null ? firstname.hashCode() : 0);
+        result = 31 * result + (middlename != null ? middlename.hashCode() : 0);
         result = 31 * result + (lastname != null ? lastname.hashCode() : 0);
+        result = 31 * result + (homephone != null ? homephone.hashCode() : 0);
+        result = 31 * result + (email != null ? email.hashCode() : 0);
         return result;
     }
 }
