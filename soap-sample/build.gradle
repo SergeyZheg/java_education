@@ -1,0 +1,52 @@
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+//  testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+//  testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+    implementation 'org.testng:testng:7.4.0'
+ //   testCompile 'junit:junit:+'
+}
+
+buildscript {
+    repositories {
+        jcenter()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'no.nils:wsdl2java:0.9'
+    }
+}
+
+
+apply plugin: 'no.nils.wsdl2java'
+
+wsdl2java {
+    generatedWsdlDir = file("src/main/java")
+    wsdlDir = file("src/main/resources")
+    wsdlsToGenerate = [   //  2d-array of wsdls and cxf-parameters
+                          ['src/main/resources/geoipservice.wsdl'],
+    ]
+}
+
+//test {
+//    useJUnitPlatform()
+//}
+//
+//wsdl2java {
+//    wsdlsToGenerate = [
+//            ['-p', 'ru.stqa.pft.soap',
+//             '-autoNameResolution', "$projectDir/src/main/resources/geoipservice.wsdl"]
+//    ]
+//    generatedWsdlDir = file("$projectDir/src/main/java")
+//    wsdlDir = file("$projectDir/src/main/resources")
+//    locale = Locale.ENGLISH
+//}
+//
+//wsdl2javaExt {
+//    cxfVersion = "2.5.1"
+//}
