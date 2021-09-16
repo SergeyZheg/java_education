@@ -25,6 +25,7 @@ public class SoapTests extends TestBase {
 
     @Test
     public void testCreateIssue() throws MalformedURLException, ServiceException, RemoteException {
+//        skipIfNotFixed(Integer.parseInt(app.getProperty("soap.issueId"))); Можно в каждый тест вставлять проверку вместо общей при иницилизации
         Set<Project> projects = app.soap().getProjects();
         Issue issue = new Issue().withSummary("Test issue")
                 .withDescription("Test issue description").withProject(projects.iterator().next());
