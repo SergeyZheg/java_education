@@ -25,7 +25,7 @@ public class TestBase {
     public void setUp() throws Exception {
         app.init();
         app.ftp().upload(new File("src/test/resources/config_inc.php"), "config_inc.php", "config_inc.php.bak");
-        skipIfNotFixed(Integer.parseInt(app.getProperty("soap.issueId")));
+ //       skipIfNotFixed(Integer.parseInt(app.getProperty("soap.issueId")));
     }
 
     boolean isIssueOpen(int issueId) throws MalformedURLException, ServiceException, RemoteException {
