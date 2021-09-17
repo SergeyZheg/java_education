@@ -11,5 +11,11 @@ dependencies {
     implementation 'com.google.code.gson:gson:2.8.7'
     implementation 'org.apache.httpcomponents:httpclient:4.5.13'
     implementation 'org.apache.httpcomponents:fluent-hc:4.5.13'
+    implementation 'com.jayway.restassured:rest-assured:2.9.0'
+
+// Как минимум без зависимости "rg.glassfish.jaxb:jaxb-runtime:2.3.2" выдается ошибка: java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+// Причину описывают как: The JAXB APIs are considered to be Java EE APIs and therefore are no longer contained on the default classpath in Java SE 9. In Java 11, they are completely removed from the JDK.
+//    implementation "jakarta.xml.bind:jakarta.xml.bind-api:2.3.2"
+    implementation "org.glassfish.jaxb:jaxb-runtime:2.3.2"
 
 }
