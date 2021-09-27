@@ -12,10 +12,11 @@ repositories {
 dependencies {
     implementation 'org.testng:testng:7.4.0'
     implementation 'com.jcabi:jcabi-github:1.1.2'
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+//    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+//    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
 }
 
 test {
-    useJUnitPlatform()
+    useTestNG ()
+//    useJUnitPlatform()
 }
