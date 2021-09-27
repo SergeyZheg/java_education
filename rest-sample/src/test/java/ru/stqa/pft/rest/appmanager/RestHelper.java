@@ -16,17 +16,18 @@ public class RestHelper {
 
     private ApplicationManager app;
 
-    public RestHelper(ApplicationManager app){
+    public RestHelper(ApplicationManager app) {
         this.app = app;
     }
 
-//    Метод GET для REST запроса существующих issues из багтрекера bagify
+    //    Метод GET для REST запроса существующих issues из багтрекера bagify
     public Set<Issue> getIssues() throws IOException {
         String json = getExecutor().execute(Request.Get(app.getProperty("rest.testUrl"))).returnContent().asString();
 //        JsonElement parsed = new JsonParser().parse(json);
-        JsonElement parsed =  JsonParser.parseString(json); // Этой строкой предложено заменить строку выше
+        JsonElement parsed = JsonParser.parseString(json); // Этой строкой предложено заменить строку выше
         JsonElement issues = parsed.getAsJsonObject().get("issues");
-        return new Gson().fromJson(issues, new TypeToken<Set<Issue>>(){}.getType());
+        return new Gson().fromJson(issues, new TypeToken<Set<Issue>>() {
+        }.getType());
     }
 
     private Executor getExecutor() {
@@ -40,19 +41,19 @@ public class RestHelper {
                                 new BasicNameValuePair("description", newIssue.getDescription())))
                 .returnContent().asString();
 //        JsonElement parsed = new JsonParser().parse(json);
-        JsonElement parsed =  JsonParser.parseString(json);
+        JsonElement parsed = JsonParser.parseString(json);
         return parsed.getAsJsonObject().get("issue_id").getAsInt();
     }
 
-//    Метод GET для REST запроса issue по заданному ID из багтрекера bagify
+    //    Метод GET для REST запроса issue по заданному ID из багтрекера bagify
     public Set<Issue> getIssueById(int issuedID) throws IOException {
         String json = getExecutor().execute(Request.Get(String.format("https://bugify.stqa.ru/api/issues/%s.json", issuedID))).returnContent().asString();
 //        JsonElement parsed = new JsonParser().parse(json);
-        JsonElement parsed =  JsonParser.parseString(json);
-       JsonElement issues = parsed.getAsJsonObject().get("issues");
-        return new Gson().fromJson(issues, new TypeToken<Set<Issue>>(){}.getType()); //Возвращаются только элементы, указанные в типе Issue
+        JsonElement parsed = JsonParser.parseString(json);
+        JsonElement issues = parsed.getAsJsonObject().get("issues");
+        return new Gson().fromJson(issues, new TypeToken<Set<Issue>>() {
+        }.getType()); //Возвращаются только элементы, указанные в типе Issue
     }
-
 
 
 
